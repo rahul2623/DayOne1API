@@ -1,0 +1,12 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+/target/
+/build/
+.gradle/
+/.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.class
+*.log
