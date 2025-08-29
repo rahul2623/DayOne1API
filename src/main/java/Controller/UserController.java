@@ -31,7 +31,9 @@ public class UserController {
             List<User> data = myservice.getalluserse();
             return ResponseEntity.status(HttpStatus.ACCEPTED).body(data);
         } catch (Exception e) {
+            System.out.println("zHello");
             return ResponseEntity.badRequest().body(null);
+
         }
     }
 }
